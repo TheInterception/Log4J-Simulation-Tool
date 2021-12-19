@@ -4,6 +4,8 @@
 
 This is a specially crafted automated Vulnerability Scanner, Patch Management and Exploitation tool for CVE-2021-44228. This is a combination of Python, Java and Linux shell program which will make it easier for a Network Administrator, Endpoint Security Developers and Cyber-Security Analysts to perform Penetration Testing and protect themselves from The Log4Shell vulnerability.
 
+So the Security Analyst can perform the Log4J JNDI attack as well as mitigate the security issue using the integrated patch manager.
+
 This vulnerability analysis tool will be regularly updated as soon as I get the security alerts.
 
 <!-- Download link for Java JDK as a pre-requisite for exploitation tool-->
