@@ -7,7 +7,17 @@ This is a specially crafted automated Vulnerability Scanner, Patch Management To
 <!-- Download link for Java JDK as a pre-requisite for exploitation tool-->
 
 ## System Pre-Requisite
-<br>
-<p><b>Download Java version 8 JDK from here, Extract it on the src directory and rename the Java jdk file as jdk1.8.0_20</b></p>
-<a href="https://app.blackhole.run/#N4XaeQzCCF1N6AVWwhf36A5e7VfDjdNkCRogUcBzVhWE">Download for Debian Linux x64</a>
+<p>
+  <ul type="circle">
+    <li><b>Download Java version 8 JDK from here, Extract it on the src directory and rename the Java jdk file as jdk1.8.0_20</b><br>
+           <a href="https://app.blackhole.run/#N4XaeQzCCF1N6AVWwhf36A5e7VfDjdNkCRogUcBzVhWE">Download for Debian Linux x64</a></li>
+    <li><b>Execute dependencies.sh file by changing permission (chmod +x dependencies.sh) than run ./dependencies.sh. This will automatically install all the required packages on your system to execute this tool.</b></li>
+    </ul>
+</p>
 
+
+<!-- Execution phase for exploitation tool -->
+## Execute the Pentesting tool
+<p>
+  <b>Run the tool by using the command (./automation.sh)</b>
+</p>
