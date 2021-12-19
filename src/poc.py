@@ -109,7 +109,6 @@ def createLdapServer(userip, lport):
 def header():
   print(Fore.BLUE+"""
 [!] CVE: CVE-2021-44228
-[!] Github repo: https://github.com/kozmer/log4j-shell-poc
 """)
 
 if __name__ == "__main__":
