@@ -1,6 +1,10 @@
 clear
 toilet -kf script Log4j Pentester
 bold=$(tput bold);
+echo "${bold}Developed by >> Sachin Verlekar"
+echo "${bold}Github >> https://github.com/TheInterception/Log4J-Simulation-Tool"
+echo "${bold}Instagram >> https://www.instagram.com/the_int3rceptor.exe/"
+echo ""
 echo "=======================================================================";
 echo "                               ${bold}MAIN MENU"
 echo "=======================================================================";
@@ -44,7 +48,7 @@ case $option in
   echo "[?] Apply patch (y/n) [Choose n if no vulnerabilities are detected]"
   read subopt
   case $subopt in
-  y) ./log4j2-scan --fix $directory
+  y) ./log4j2-scan --fix --scan-log4j1 --scan-logback --scan-zip $directory
      echo "[?] Rerun the script (y/n)"
      read runscript
      case $runscript in
