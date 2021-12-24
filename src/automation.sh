@@ -48,7 +48,7 @@ case $option in
   echo "[?] Apply patch (y/n) [Choose n if no vulnerabilities are detected]"
   read subopt
   case $subopt in
-  y) ./log4j2-scan --fix --scan-log4j1 --scan-logback --scan-zip $directory
+  y) ./log4j2-scan --fix --scan-log4j1 --scan-logback --report-csv $directory 
      echo "[?] Rerun the script (y/n)"
      read runscript
      case $runscript in
