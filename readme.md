@@ -16,6 +16,8 @@ This vulnerability analysis tool will be regularly updated as soon as I get the 
     <li><b>Download Java version 8 JDK from here, Extract it on the src directory and rename the Java jdk file as jdk1.8.0_20</b><br>
            <a href="https://app.blackhole.run/#N4XaeQzCCF1N6AVWwhf36A5e7VfDjdNkCRogUcBzVhWE">Download for Debian Linux x64</a></li>
     <li><b>Execute dependencies.sh file by changing permission (chmod +x dependencies.sh) than run ./dependencies.sh. This will automatically install all the required packages on your system to execute this tool.</b></li>
+    <li><b>In the same directory type the command pip install -r requirements.txt. This will install all the python based packages</b></li>
+    <li><b>Update your system using the command sudo apt full-upgrade. Have a cup of tea of coffee for a meanwhile because it might take a moment to complete this upgrade</b></li>
     </ul>
 </p>
 
